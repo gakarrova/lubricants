@@ -1,0 +1,115 @@
+body{
+	background-color: #000000;
+}
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#heading {
+	font-family:arial;
+}
+#pic1 {
+	position:absolute;
+    left:0px;
+	top:0px;
+	z-index:-1;
+	width: 80%;
+	margin-left: 5%;
+	position: absolute;
+}
+#call {
+	display: inline-block;
+	margin-left: 700px;
+	margin-top: 50px;
+	position: absolute;
+}
+#content{
+	color:white;
+	font-family: arial;
+}
+#navbar {
+	margin: 0;
+	margin-left:-9px;
+	height: 1em; 
+	padding-left:0px;
+	padding-top: 106px;
+}
+#navbar li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0; }
+#navbar li:hover li {
+	float: none; }
+#navbar li:hover li a {
+	background-color: #69f;
+	border-bottom: 1px solid #fff;
+	color: #000; }
+#navbar li li a:hover {
+	background-color: #8db3ff; }
+
+#navbar li {
+	list-style: none;
+	float: left; }
+#navbar li a {
+	display: block;
+	padding: 3px 23px;
+	color:black;
+	background-color: #F7F7F7;
+	text-decoration: none;
+	margin-left: 2px;
+ }
+#navbar li li a{
+	width: 150px;
+
+}
+#navbar li ul {
+	display: none; 
+	width: 10em; 
+	background-color: #69f;
+	text-decoration: none;
+	text-align: center;
+	padding: 2px;
+}
+#content {
+	margin-top: 20px;
+	width: 100%;
+}
+#pic2 {
+	display: inline-block;
+	border: 3px solid white;
+	width: 36%;
+}
+#ABOUT-PPC {
+	width:52%;
+	display:inline-block;
+	background-color: gray;
+	vertical-align: top;
+	margin-top: 4px;
+	padding-bottom: 71px;
+	background: linear-gradient(270deg, #000000, grey);
+}
+#ABOUT-PPC h2 {
+	background-color: yellow;
+	padding:5px;
+	margin-top: -4px;
+}
+#ABOUT-PPC h3 {
+	padding-left: 22px;
+}
+.paragraph {
+	padding-left: 22px;
+	padding-right: 30px;
+	font-size: small;
+}
+#logo {
+	width: 12%;
+	margin-top: 2%;
+}
+#divtxt {
+	display: inline-block;
+	margin-left: 4%;
+	color: yellow;
+	font-size: small;
+}
